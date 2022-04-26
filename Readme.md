@@ -1,4 +1,4 @@
-<img src="images/logo.jpg">
+<img src="images/logo.jpg" width="100px">
 # Proyecto
 
 Este proyecto esta diseñado para la Compañía MV Estética Vehicular.
