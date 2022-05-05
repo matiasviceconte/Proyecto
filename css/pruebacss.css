@@ -1,0 +1,311 @@
+@charset "UTF-8";
+h1 {
+  color: #ad1717; }
+
+.sectionOne > div {
+  display: flex;
+  align-items: center; }
+
+.sectionOne {
+  width: 100%;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/koch-chemie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.sectionOne h2 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 70px;
+  margin-top: -100px; }
+
+.sectionOne p {
+  font-size: 25px;
+  margin-top: 100px; }
+
+h2 {
+  text-align: center; }
+
+.sectionOne > div .tituloParrafo {
+  margin: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff; }
+
+.redes {
+  background-color: black;
+  margin: -1065px 0; }
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box; }
+
+body {
+  background: #292929;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+img {
+  width: 180px;
+  height: 120px;
+  float: left;
+  padding: 5px; }
+
+nav {
+  float: right; }
+
+nav ul li {
+  list-style: none;
+  margin-left: 105px;
+  padding: 50px 0;
+  float: left; }
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.menu {
+  width: 1900px;
+  margin: 0; }
+
+header {
+  background: white;
+  width: 100%;
+  clear: both;
+  content: "";
+  display: table; }
+
+.creacionDePagina {
+  color: white; }
+
+/* MAIN */
+.mainTrabajos p {
+  background-color: rgba(255, 255, 255, 0.849); }
+
+.tratamientoAcrilico {
+  width: 400px;
+  height: 250px; }
+
+.divCeramico {
+  margin-top: 300px; }
+
+.tratamientoCeramico {
+  width: 400px;
+  height: 250px; }
+
+.interiores {
+  width: 400px;
+  height: 250px; }
+
+.divInteriores {
+  margin-top: 300px; }
+
+.titulo1 {
+  color: #a72c2c;
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px; }
+
+.subtitulos {
+  color: rgba(255, 255, 255, 0.74); }
+
+.divSacabollos {
+  margin-top: 300px; }
+
+.sacabollos {
+  width: 400px;
+  height: 250px; }
+
+.divLlantas {
+  margin-top: 300px; }
+
+.llantas {
+  width: 400px;
+  height: 250px; }
+
+.titulo2 {
+  color: #a72c2c;
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px; }
+
+.subtitulos2 {
+  color: rgba(255, 255, 255, 0.74); }
+
+.mainCompañia p {
+  background-color: rgba(255, 255, 255, 0.849); }
+
+.formulario {
+  background-color: white;
+  color: red;
+  padding: 10px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 0px;
+  font-size: 16px; }
+
+.cajas {
+  width: 100%;
+  background: #979191;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px; }
+
+.botonEnviar {
+  width: 100%;
+  background: #979191;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px; }
+
+.botonLimpiar {
+  width: 100%;
+  background: #979191;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px; }
+
+.mensajeAqui {
+  width: 100%;
+  background: #331111;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  color: white; }
+
+.precios {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px; }
+
+.columna {
+  background-color: rgba(71, 56, 56, 0);
+  color: #000000;
+  border: 1px solid #ffffff;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 15vw;
+  border-radius: 25px;
+  box-shadow: 10px 10px; }
+
+.precio {
+  font-size: 50px;
+  color: white; }
+
+.btn-precio {
+  background: #331111;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-top: 30px; }
+
+.btn-precio:hover {
+  background: #ad1717; }
+
+.divCompañia {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 200px 200px;
+  border: 4px solid black;
+  margin: 15px;
+  background-color: #331111; }
+
+.divCompañia:hover {
+  border: 1px solid blue; }
+
+.divCompañia {
+  background: white; }
+
+.subtitulos {
+  color: #000000; }
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto); }
+
+.contenedor > div,
+.contenedor .header,
+.contenedor .quienesSomos,
+.contenedor .sidebar,
+.contenedor .footer {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px; }
+
+.contenedor .header {
+  background: #12203E;
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: 4; }
+
+.contenedor .quienesSomos {
+  grid-column: span 2; }
+
+.contenedor .sidebar {
+  grid-column: 3 / 4;
+  background: #682222;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  grid-row: 2 / 3; }
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 75px; }
+  .contenedor .quienesSomos {
+    width: 100%; }
+  .sectionOne {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .contenedor .sidebar {
+    grid-column: 1 / -1; } }
+
+.redesCompañia {
+  background: #12203E;
+  color: #fff;
+  grid-column: span 3;
+  text-align: center; }
